@@ -4,6 +4,7 @@ import { MdButton, MdContent, MdDatepicker, MdDialog, MdDrawer, MdField, MdIcon,
 import 'vue-material/dist/theme/default.css'
 import 'vue-material/dist/vue-material.min.css'
 import App from './App.vue'
+import router from './routes'
 import './styles.css'
 
 
@@ -23,4 +24,5 @@ Vue.use(MdDialog)
 
 new Vue({
   render: h => h(App),
+  router
 }).$mount('#app')
